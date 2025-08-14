@@ -1,0 +1,49 @@
+.inputArea {
+  position: relative;
+  width: 64rem;
+  height: 3rem;
+}
+
+.input {
+  outline: none;
+  border: 2px solid #59a96a;
+  border-radius: 30px;
+  width: 64rem;
+  height: 3.5rem;
+  padding-left: 4rem;
+  font-size: 1rem;
+  caret-color: #000;
+  caret-shape: block;
+
+  &::placeholder {
+    color: #000;
+  }
+}
+
+.botIcon {
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+}
+
+.sendHorizontalButton {
+  position: absolute;
+  top: 0.5rem;
+  right: 2rem;
+  background-color: #5fad56;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5em;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:focus {
+    transition: none;
+    outline: 2px solid #000;
+  }
+}

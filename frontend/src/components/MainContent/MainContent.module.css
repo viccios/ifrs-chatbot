@@ -1,0 +1,9 @@
+.mainContent {
+  display: grid;
+  place-items: center;
+}
+
+.informationCards {
+  display: flex;
+  gap: 2rem;
+}

@@ -1,0 +1,17 @@
+.greeting {
+  display: grid;
+  place-items: center;
+  gap: 3em;
+}
+
+.wavingHand {
+  filter: drop-shadow(10px 10px 10px #b6c649);
+}
+
+.gradientText {
+  background-image: linear-gradient(#b4e7ce, #59a96a);
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  font-size: 3rem;
+}
