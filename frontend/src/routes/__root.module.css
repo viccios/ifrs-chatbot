@@ -1,0 +1,22 @@
+.app {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  height: 100vh;
+}
+
+.mainContent {
+  display: grid;
+  grid-template-rows: 80% 20%;
+  place-items: center;
+}
+
+.closeAnimation {
+  animation: close 0.5s linear;
+}
+
+@keyframes close {
+  to {
+    transform: translateY(-5rem);
+    opacity: 0;
+  }
+}

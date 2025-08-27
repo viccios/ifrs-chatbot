@@ -1,6 +1,5 @@
 import { Newspaper, CodeXml, Microscope } from 'lucide-react';
 import Greeting from '../Greeting/Greeting';
-import InputArea from '../InputArea/InputArea';
 import SuggestionCard from '../SuggestionCard/SuggestionCard';
 import styles from './MainContent.module.css';
 
@@ -20,7 +19,6 @@ function MainContent() {
             Liste Projetos de Pesquisa Disponíveis
           </SuggestionCard>
         </div>
-        <InputArea />
       </main>
     </>
   );

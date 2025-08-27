@@ -10,7 +10,6 @@ function Greeting() {
         width={150}
         height={150}
         draggable="false"
-        className={styles.wavingHand}
       />
       <div>
         <p className={styles.gradientText}>Olá!</p>

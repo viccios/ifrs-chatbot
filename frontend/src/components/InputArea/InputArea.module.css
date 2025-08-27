@@ -10,13 +10,17 @@
   border-radius: 30px;
   width: 64rem;
   height: 3.5rem;
-  padding-left: 4rem;
+  padding: 0 6em 0 4em;
   font-size: 1rem;
   caret-color: #000;
   caret-shape: block;
 
   &::placeholder {
     color: #000;
+  }
+
+  &:focus {
+    border: 2px solid #000;
   }
 }
 

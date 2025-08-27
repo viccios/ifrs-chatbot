@@ -1,14 +1,10 @@
-import './App.css';
-import Sidebar from './components/Sidebar/Sidebar';
-import MainContent from './components/MainContent/MainContent';
+import { RouterProvider, createRouter } from '@tanstack/react-router';
+import { routeTree } from './routeTree.gen';
+
+const router = createRouter({ routeTree });
 
 function App() {
-  return (
-    <div className="app">
-      <Sidebar />
-      <MainContent />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

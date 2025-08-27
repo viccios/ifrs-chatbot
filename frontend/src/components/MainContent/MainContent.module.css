@@ -1,6 +1,6 @@
 .mainContent {
   display: grid;
-  place-items: center;
+  gap: 7.5rem;
 }
 
 .informationCards {

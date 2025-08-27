@@ -4,10 +4,6 @@
   gap: 3em;
 }
 
-.wavingHand {
-  filter: drop-shadow(10px 10px 10px #b6c649);
-}
-
 .gradientText {
   background-image: linear-gradient(#b4e7ce, #59a96a);
   background-clip: text;
