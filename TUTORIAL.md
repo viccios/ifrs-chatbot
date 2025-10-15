@@ -3,7 +3,7 @@
 # Frontend
 
 Entre na pasta e de `npm i` e `npm run dev`. Um servidor Vite deverá
-subir no endereço http://localhost:5173/app
+subir no endereço <http://localhost:5173/app>
 
 # Backend
 
@@ -13,6 +13,8 @@ Instale o UV (para projetos Python)
 Entre no diretório backend e de um `uv sync`
 
 Entre no venv `souce .venv/bin/activate`
+
+Criar arquivo .env na pasta backend/app e colocar `GOOGLE_API_KEY=<chave-de-api-do-gemini>`
 
 Para rodar a interface de teste: `adk web`
 
