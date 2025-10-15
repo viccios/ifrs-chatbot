@@ -3,10 +3,10 @@ import styles from './SuggestionCard.module.css';
 
 function SuggestionCard({ children, icon }: SuggestionCardProps) {
   return (
-    <div className={styles.suggestionCard}>
+    <button className={styles.suggestionCard}>
       <p>{children}</p>
       <p>{icon}</p>
-    </div>
+    </button>
   );
 }
 

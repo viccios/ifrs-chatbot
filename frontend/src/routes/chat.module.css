@@ -4,5 +4,6 @@
   justify-content: start;
   align-items: center;
   width: 50cqw;
-  height: 50cqh;
+  height: 70cqh;
+  overflow-y: scroll;
 }

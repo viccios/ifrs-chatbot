@@ -6,5 +6,9 @@ export const Route = createFileRoute('/app')({
 });
 
 function RouteComponent() {
-  return <MainContent />;
+  return (
+    <>
+      <MainContent />
+    </>
+  );
 }
